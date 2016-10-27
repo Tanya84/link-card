@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 georgia, Dosis;
+  font: normal 100%/1.5 Georgia, "Dosis";
   margin: 0;
 
 }
@@ -41,7 +41,7 @@ dl {
 .link-card h2 {
   font-size: 1.5rem;
   color: #512200;
-  font-family: Dosis, serif;
+  font-family: "Dosis", serif;
   padding-bottom: .5rem;
 
 }
@@ -53,7 +53,7 @@ dt {
 }
 
 dd {
-  font-family: "geogria", serif;
+  font-family: Georgia, serif;
   font-style: italic;
   padding-left: 5rem;
 }
