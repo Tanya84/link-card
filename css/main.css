@@ -21,7 +21,7 @@ body {
   border: solid;
   margin: 0 0 1rem;
   padding: .4em .75em .5em;
-  background-color: #f0eee8;
+  background-color: #dcd4cd;
   border-color: #785439;
   border-radius: 3px;
 
@@ -34,16 +34,18 @@ p {
 
 }
 
-dl {
-  color: #512200;
-}
+
 
 .link-card h2 {
   font-size: 1.5rem;
   color: #512200;
   font-family: "Dosis", serif;
-  padding-bottom: .5rem;
 
+}
+
+dl {
+  color: #512200;
+  line-height: normal;
 }
 
 dt {
@@ -59,11 +61,10 @@ dd {
 }
 
 .btn {
-  text-align: center;
   color: #fff;
   border-radius: 8px;
   display: inline-block;
-  background-color: #512200;
+  background-color: #9a816d;
   font-family: Dosis, serif;
   font-weight: bold;
   padding: .75rem;
