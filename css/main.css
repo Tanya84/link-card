@@ -45,7 +45,7 @@ p {
 
 dl {
   color: #512200;
-  line-height: normal;
+  line-height: 1rem;
 }
 
 dt {
