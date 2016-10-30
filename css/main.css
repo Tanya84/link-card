@@ -1,17 +1,11 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 Georgia, serif;
-  margin: 0;
-
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-
-}
-
-body {
-  margin: 0;
 }
 
 .link-card {
@@ -19,20 +13,14 @@ body {
   text-decoration: none;
   border: 3px;
   border: solid;
-  margin: 0 0 1rem;
   padding: 1rem;
   background-color: #dcd4cd;
   border-color: #9a816d;
   border-radius: 3px;
-
 }
 
 .link-card:hover{
   background-color: #cabdb2;
-}
-
-.link-card:hover .btn {
-  background-color: #512200;
 }
 
 p {
@@ -40,7 +28,6 @@ p {
   font-size: 1rem;
   font-family: georgia, serif;
   margin: 0;
-
 }
 
 .link-card h2 {
@@ -48,25 +35,20 @@ p {
   color: #512200;
   font-family: Dosis, serif;
   margin: 0;
-
 }
 
 dl {
   color: #512200;
-  line-height: 1rem;
   font-size: .875rem;
   border-bottom: 2px solid #9a816d;
   border-top: 2px solid #9a816d;
   padding: 1rem 0;
-
-
 }
 
 dt {
   font-family: georgia, serif;
   display: inline-block;
   width: 25%;
-
 }
 
 dd {
@@ -87,7 +69,9 @@ dd {
   font-size: 1.125rem;
 }
 
-
+.link-card:hover .btn {
+  background-color: #512200;
+}
 
 div {
   text-align: center;
